@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blockbus.wted.core.user.dao.EthTradeDao">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.blockbus.wted.core.user.entity.EthTrade">
+		<id column="id" property="id" />
+		<result column="block_hash" property="blockHash" />
+		<result column="block_no" property="blockNo" />
+		<result column="from_addr" property="fromAddr" />
+		<result column="gas" property="gas" />
+		<result column="gas_price" property="gasPrice" />
+		<result column="transaction_hash" property="transactionHash" />
+		<result column="input_data" property="inputData" />
+		<result column="to_addr" property="toAddr" />
+		<result column="transaction_index" property="transactionIndex" />
+		<result column="value" property="value" />
+		<result column="timestamp" property="timestamp" />
+		<result column="user_id" property="userId" />
+		<result column="state" property="state" />
+		<result column="admin_id" property="adminId" />
+		<result column="remark" property="remark" />
+		<result column="created_at" property="createdAt" />
+		<result column="updated_at" property="updatedAt" />
+		<result column="miner_hash" property="minerHash" />
+		<result column="collect_hash" property="collectHash" />
+	</resultMap>
+
+</mapper>

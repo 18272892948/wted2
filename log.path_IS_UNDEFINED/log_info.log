@@ -1,0 +1,18 @@
+2019-08-22 08:12:47.682 [main] INFO  com.blockbus.wted.WtedApplication - Starting WtedApplication on DESKTOP-RTS3MEQ with PID 13912 (E:\IDEAworkspace\wted\target\classes started by User in E:\IDEAworkspace\wted)
+2019-08-22 08:12:47.701 [main] INFO  com.blockbus.wted.WtedApplication - No active profile set, falling back to default profiles: default
+2019-08-22 08:12:49.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-22 08:12:49.916 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 08:12:49.983 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 repository interfaces.
+2019-08-22 08:12:50.403 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56721246] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 08:12:50.917 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-08-22 08:12:50.935 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-22 08:12:50.946 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-22 08:12:50.946 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-22 08:12:51.106 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-22 08:12:51.107 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3099 ms
+2019-08-22 08:12:51.627 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-22 08:12:53.044 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-22 08:12:53.049 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-08-22 08:12:53.063 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

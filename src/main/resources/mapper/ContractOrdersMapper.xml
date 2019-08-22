@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blockbus.wted.core.user.dao.ContractOrderDao">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.blockbus.wted.core.user.entity.ContractOrder">
+		<id column="id" property="id" />
+		<result column="user_id" property="userId" />
+		<result column="contract_id" property="contractId" />
+		<result column="is_special" property="isSpecial" />
+		<result column="buy_amount" property="buyAmount" />
+		<result column="fission_amount" property="fissionAmount" />
+		<result column="release_amount" property="releaseAmount" />
+		<result column="rate" property="rate" />
+		<result column="enabled" property="enabled" />
+		<result column="end_at" property="endAt" />
+		<result column="created_at" property="createdAt" />
+		<result column="updated_at" property="updatedAt" />
+	</resultMap>
+
+</mapper>

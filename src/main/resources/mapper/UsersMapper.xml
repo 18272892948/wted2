@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blockbus.wted.core.user.dao.UserDao">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.blockbus.wted.core.user.entity.User">
+		<id column="id" property="id" />
+		<result column="parent_id" property="parentId" />
+		<result column="mobile" property="mobile" />
+		<result column="password_digest" property="passwordDigest" />
+		<result column="pay_code" property="payCode" />
+		<result column="invite_code" property="inviteCode" />
+		<result column="generation" property="generation" />
+		<result column="contract_count" property="contractCount" />
+		<result column="team_contract_count" property="teamContractCount" />
+		<result column="leader_name" property="leaderName" />
+		<result column="level" property="level" />
+		<result column="sign_in_count" property="signInCount" />
+		<result column="current_sign_in_at" property="currentSignInAt" />
+		<result column="last_sign_in_at" property="lastSignInAt" />
+		<result column="current_sign_in_ip" property="currentSignInIp" />
+		<result column="last_sign_in_ip" property="lastSignInIp" />
+		<result column="created_at" property="createdAt" />
+		<result column="updated_at" property="updatedAt" />
+		<result column="team_count" property="teamCount" />
+	</resultMap>
+
+</mapper>

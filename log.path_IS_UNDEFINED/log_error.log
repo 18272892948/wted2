@@ -1,0 +1,19 @@
+2019-08-22 08:12:53.066 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.redis.port' to int:
+
+    Property: spring.redis.port
+    Value: 
+    Origin: class path resource [application.yml]:11:10
+    Reason: failed to convert java.lang.String to int
+
+Action:
+
+Update your application's configuration
+
